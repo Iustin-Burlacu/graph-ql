@@ -1,0 +1,23 @@
+{
+  "name": "graphql",
+  "version": "0.0.1",
+  "description": "GraphQL test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "Iustin Burlacu",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.10.1",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.26",
+    "typescript": "^5.4.2"
+  }
+}
